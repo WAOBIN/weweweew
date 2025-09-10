@@ -2353,3 +2353,305 @@ Caused by: java.io.FileNotFoundException: immersive_paintings/immersive_painting
 [10Sep2025 01:32:52.409] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Teleported Smile_and_Eye to 90.5, 20000.0, 90.5
 [10Sep2025 01:33:01.805] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RompOrTos: Teleported RompOrTos to Smile_and_Eye]
 [10Sep2025 01:33:04.072] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Played sound minecraft:music.creative to 2 players]
+[10Sep2025 01:33:43.461] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Smile_and_Eye> qué es esto
+[10Sep2025 01:33:46.448] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Unknown or incomplete command, see below for error
+[10Sep2025 01:33:46.458] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Smile_Smile_Smile_and_Eye survival<--[HERE]
+[10Sep2025 01:33:46.539] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Set own game mode to Spectator Mode]
+[10Sep2025 01:33:51.424] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <RompOrTos> xdd
+[10Sep2025 01:33:56.641] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Set own game mode to Survival Mode]
+[10Sep2025 01:34:12.968] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RompOrTos: Teleported RompOrTos to Smile_and_Eye]
+[10Sep2025 01:34:19.258] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <RompOrTos> tas en survival
+[10Sep2025 01:34:26.126] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Smile_and_Eye> sí sé
+[10Sep2025 01:34:35.669] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RompOrTos: Teleported RompOrTos to 180.5, 90.0, 180.5]
+[10Sep2025 01:34:41.772] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <RompOrTos> te espero mno
+[10Sep2025 01:34:48.586] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RompOrTos: Set the weather to clear]
+[10Sep2025 01:35:00.750] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Summoned new Pig]
+[10Sep2025 01:35:05.174] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Summoned new Pig]
+[10Sep2025 01:35:05.298] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Shepherd'/38, l='ServerLevel[PO]', x=137.30, y=66.00, z=201.70] died, message: 'Shepherd was slain by Zombie'
+[10Sep2025 01:35:10.064] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Summoned new Pig]
+[10Sep2025 01:35:10.453] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Summoned new Pig]
+[10Sep2025 01:35:10.781] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Summoned new Pig]
+[10Sep2025 01:35:16.118] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Summoned new Pig]
+[10Sep2025 01:35:17.255] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Summoned new Pig]
+[10Sep2025 01:35:18.962] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Summoned new Pig]
+[10Sep2025 01:35:19.351] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Summoned new Pig]
+[10Sep2025 01:35:20.467] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Summoned new Pig]
+[10Sep2025 01:35:24.924] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Summoned new Pig]
+[10Sep2025 01:35:25.257] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Summoned new Pig]
+[10Sep2025 01:35:25.500] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Summoned new Pig]
+[10Sep2025 01:35:30.002] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Summoned new Pig]
+[10Sep2025 01:35:34.130] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Summoned new Pig]
+[10Sep2025 01:35:36.338] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Summoned new Pig]
+[10Sep2025 01:35:39.031] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Summoned new Pig]
+[10Sep2025 01:35:39.652] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RompOrTos: Teleported Smile_and_Eye to 183.5, -10000.0, 189.5]
+[10Sep2025 01:35:40.701] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Smile_and_Eye fell out of the world
+[10Sep2025 01:35:41.813] [Server thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Server
+java.lang.NullPointerException: null
+	at net.minecraft.world.server.TicketManager.func_219367_b(TicketManager.java:227) ~[?:?]
+	at net.minecraft.world.server.ChunkManager.func_219183_a(ChunkManager.java:884) ~[?:?]
+	at net.minecraft.world.server.ServerChunkProvider.func_217221_a(ServerChunkProvider.java:450) ~[?:?]
+	at net.minecraft.network.play.ServerPlayNetHandler.func_147347_a(ServerPlayNetHandler.java:845) ~[?:?]
+	at net.minecraft.network.play.client.CPlayerPacket.func_148833_a(SourceFile:122) ~[?:?]
+	at net.minecraft.network.play.client.CPlayerPacket$PositionPacket.func_148833_a(SourceFile:56) ~[?:?]
+	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18) ~[?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144) ~[?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:734) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:159) ~[?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:717) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:711) ~[?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:697) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:646) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232) ~[?:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+[10Sep2025 01:35:44.607] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Smile_and_Eye> eres una perrita
+[10Sep2025 01:35:50.027] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <RompOrTos> xdd
+[10Sep2025 01:36:19.349] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RompOrTos: Teleported Smile_and_Eye to 189.5, 100.0, 189.5]
+[10Sep2025 01:36:21.066] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Smile_and_Eye fell from a high place
+[10Sep2025 01:36:25.151] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <RompOrTos> xd
+[10Sep2025 01:36:37.074] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RompOrTos: Set the time to 1000]
+[10Sep2025 01:36:54.180] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Smile_and_Eye> este pata
+[10Sep2025 01:36:55.855] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RompOrTos: Teleported RompOrTos to Smile_and_Eye]
+[10Sep2025 01:37:00.224] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Smile_and_Eye> oe hubieras puesto mod de las farlands
+[10Sep2025 01:37:16.041] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <RompOrTos> ese creo q no hay haber miro
+[10Sep2025 01:37:59.730] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <RompOrTos> ya lo encontr
+[10Sep2025 01:38:06.449] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <RompOrTos> ya instalo mañana xd
+[10Sep2025 01:38:12.701] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <RompOrTos> verdad la maqueta
+[10Sep2025 01:38:27.379] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RompOrTos: Teleported RompOrTos to Smile_and_Eye]
+[10Sep2025 01:38:46.922] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RompOrTos: Teleported Smile_and_Eye to RompOrTos]
+[10Sep2025 01:38:54.303] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <RompOrTos> xd
+[10Sep2025 01:39:05.064] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: java.io.FileNotFoundException: ./immersive_paintings_cache/3d2a541d-336e-4d59-82f9-1945ac927282_quarter.png (No such file or directory)
+[10Sep2025 01:39:05.065] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[10Sep2025 01:39:05.065] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+[10Sep2025 01:39:05.065] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+[10Sep2025 01:39:05.065] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+[10Sep2025 01:39:05.066] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at immersive_paintings.resources.Cache.set(Cache.java:53)
+[10Sep2025 01:39:05.066] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:143)
+[10Sep2025 01:39:05.066] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:39)
+[10Sep2025 01:39:05.066] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at immersive_paintings.forge.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:35)
+[10Sep2025 01:39:05.066] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraftforge.fml.network.NetworkEvent$Context.enqueueWork(NetworkEvent.java:201)
+[10Sep2025 01:39:05.066] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at immersive_paintings.forge.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$2(NetworkHandlerImpl.java:33)
+[10Sep2025 01:39:05.066] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraftforge.fml.network.simple.IndexedMessageCodec.lambda$tryDecode$3(IndexedMessageCodec.java:114)
+[10Sep2025 01:39:05.067] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at java.base/java.util.Optional.ifPresent(Optional.java:183)
+[10Sep2025 01:39:05.067] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraftforge.fml.network.simple.IndexedMessageCodec.tryDecode(IndexedMessageCodec.java:114)
+[10Sep2025 01:39:05.067] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraftforge.fml.network.simple.IndexedMessageCodec.consume(IndexedMessageCodec.java:148)
+[10Sep2025 01:39:05.067] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraftforge.fml.network.simple.SimpleChannel.networkEventListener(SimpleChannel.java:66)
+[10Sep2025 01:39:05.067] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247)
+[10Sep2025 01:39:05.067] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239)
+[10Sep2025 01:39:05.068] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
+[10Sep2025 01:39:05.068] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
+[10Sep2025 01:39:05.068] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraftforge.fml.network.NetworkInstance.dispatch(NetworkInstance.java:72)
+[10Sep2025 01:39:05.068] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraftforge.fml.network.NetworkHooks.lambda$onCustomPayload$1(NetworkHooks.java:77)
+[10Sep2025 01:39:05.068] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at java.base/java.util.Optional.map(Optional.java:265)
+[10Sep2025 01:39:05.069] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraftforge.fml.network.NetworkHooks.onCustomPayload(NetworkHooks.java:77)
+[10Sep2025 01:39:05.069] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraft.network.play.ServerPlayNetHandler.func_147349_a(ServerPlayNetHandler.java:1413)
+[10Sep2025 01:39:05.069] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraft.network.play.client.CCustomPayloadPacket.func_148833_a(CCustomPayloadPacket.java:42)
+[10Sep2025 01:39:05.069] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraft.network.play.client.CCustomPayloadPacket.func_148833_a(CCustomPayloadPacket.java:12)
+[10Sep2025 01:39:05.069] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21)
+[10Sep2025 01:39:05.069] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
+[10Sep2025 01:39:05.069] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144)
+[10Sep2025 01:39:05.069] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
+[10Sep2025 01:39:05.069] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:734)
+[10Sep2025 01:39:05.070] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:159)
+[10Sep2025 01:39:05.070] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118)
+[10Sep2025 01:39:05.070] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:717)
+[10Sep2025 01:39:05.070] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:711)
+[10Sep2025 01:39:05.070] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213160_bf(SourceFile:103)
+[10Sep2025 01:39:05.070] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:696)
+[10Sep2025 01:39:05.070] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:646)
+[10Sep2025 01:39:05.070] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232)
+[10Sep2025 01:39:05.071] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at java.base/java.lang.Thread.run(Thread.java:829)
+[10Sep2025 01:39:05.071] [Server thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Server
+java.lang.RuntimeException: java.io.FileNotFoundException: immersive_paintings/immersive_paintings_romportos/xddddd.png (No such file or directory)
+	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:96) ~[immersive_paintings:?]
+	at immersive_paintings.resources.ServerPaintingManager.getImage(ServerPaintingManager.java:70) ~[immersive_paintings:?]
+	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:106) ~[immersive_paintings:?]
+	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:39) ~[immersive_paintings:?]
+	at immersive_paintings.forge.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:35) ~[immersive_paintings:?]
+	at net.minecraftforge.fml.network.NetworkEvent$Context.enqueueWork(NetworkEvent.java:201) ~[forge:?]
+	at immersive_paintings.forge.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$2(NetworkHandlerImpl.java:33) ~[immersive_paintings:?]
+	at net.minecraftforge.fml.network.simple.IndexedMessageCodec.lambda$tryDecode$3(IndexedMessageCodec.java:114) ~[forge:?]
+	at java.util.Optional.ifPresent(Optional.java:183) ~[?:?]
+	at net.minecraftforge.fml.network.simple.IndexedMessageCodec.tryDecode(IndexedMessageCodec.java:114) ~[forge:?]
+	at net.minecraftforge.fml.network.simple.IndexedMessageCodec.consume(IndexedMessageCodec.java:148) ~[forge:?]
+	at net.minecraftforge.fml.network.simple.SimpleChannel.networkEventListener(SimpleChannel.java:66) ~[forge:?]
+	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.fml.network.NetworkInstance.dispatch(NetworkInstance.java:72) ~[forge:?]
+	at net.minecraftforge.fml.network.NetworkHooks.lambda$onCustomPayload$1(NetworkHooks.java:77) ~[forge:?]
+	at java.util.Optional.map(Optional.java:265) ~[?:?]
+	at net.minecraftforge.fml.network.NetworkHooks.onCustomPayload(NetworkHooks.java:77) ~[forge:?]
+	at net.minecraft.network.play.ServerPlayNetHandler.func_147349_a(ServerPlayNetHandler.java:1413) ~[?:?]
+	at net.minecraft.network.play.client.CCustomPayloadPacket.func_148833_a(CCustomPayloadPacket.java:42) ~[?:?]
+	at net.minecraft.network.play.client.CCustomPayloadPacket.func_148833_a(CCustomPayloadPacket.java:12) ~[?:?]
+	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18) ~[?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144) ~[?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:734) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:159) ~[?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:717) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:711) ~[?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213160_bf(SourceFile:103) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:696) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:646) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232) ~[?:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+Caused by: java.io.FileNotFoundException: immersive_paintings/immersive_paintings_romportos/xddddd.png (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:219) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:157) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:112) ~[?:?]
+	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:91) ~[immersive_paintings:?]
+	... 36 more
+[10Sep2025 01:39:11.978] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: java.io.FileNotFoundException: ./immersive_paintings_cache/3d2a541d-336e-4d59-82f9-1945ac927282_quarter.png (No such file or directory)
+[10Sep2025 01:39:11.978] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[10Sep2025 01:39:11.978] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+[10Sep2025 01:39:11.979] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+[10Sep2025 01:39:11.979] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+[10Sep2025 01:39:11.979] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at immersive_paintings.resources.Cache.set(Cache.java:53)
+[10Sep2025 01:39:11.979] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:143)
+[10Sep2025 01:39:11.979] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:39)
+[10Sep2025 01:39:11.979] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at immersive_paintings.forge.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:35)
+[10Sep2025 01:39:11.979] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraftforge.fml.network.NetworkEvent$Context.enqueueWork(NetworkEvent.java:201)
+[10Sep2025 01:39:11.980] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at immersive_paintings.forge.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$2(NetworkHandlerImpl.java:33)
+[10Sep2025 01:39:11.980] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraftforge.fml.network.simple.IndexedMessageCodec.lambda$tryDecode$3(IndexedMessageCodec.java:114)
+[10Sep2025 01:39:11.980] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at java.base/java.util.Optional.ifPresent(Optional.java:183)
+[10Sep2025 01:39:11.980] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraftforge.fml.network.simple.IndexedMessageCodec.tryDecode(IndexedMessageCodec.java:114)
+[10Sep2025 01:39:11.980] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraftforge.fml.network.simple.IndexedMessageCodec.consume(IndexedMessageCodec.java:148)
+[10Sep2025 01:39:11.980] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraftforge.fml.network.simple.SimpleChannel.networkEventListener(SimpleChannel.java:66)
+[10Sep2025 01:39:11.981] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247)
+[10Sep2025 01:39:11.981] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239)
+[10Sep2025 01:39:11.981] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
+[10Sep2025 01:39:11.981] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
+[10Sep2025 01:39:11.981] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraftforge.fml.network.NetworkInstance.dispatch(NetworkInstance.java:72)
+[10Sep2025 01:39:11.981] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraftforge.fml.network.NetworkHooks.lambda$onCustomPayload$1(NetworkHooks.java:77)
+[10Sep2025 01:39:11.981] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at java.base/java.util.Optional.map(Optional.java:265)
+[10Sep2025 01:39:11.982] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraftforge.fml.network.NetworkHooks.onCustomPayload(NetworkHooks.java:77)
+[10Sep2025 01:39:11.982] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraft.network.play.ServerPlayNetHandler.func_147349_a(ServerPlayNetHandler.java:1413)
+[10Sep2025 01:39:11.982] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraft.network.play.client.CCustomPayloadPacket.func_148833_a(CCustomPayloadPacket.java:42)
+[10Sep2025 01:39:11.982] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraft.network.play.client.CCustomPayloadPacket.func_148833_a(CCustomPayloadPacket.java:12)
+[10Sep2025 01:39:11.982] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21)
+[10Sep2025 01:39:11.982] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
+[10Sep2025 01:39:11.982] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144)
+[10Sep2025 01:39:11.983] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
+[10Sep2025 01:39:11.983] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:734)
+[10Sep2025 01:39:11.983] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:159)
+[10Sep2025 01:39:11.983] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118)
+[10Sep2025 01:39:11.983] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:717)
+[10Sep2025 01:39:11.984] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:711)
+[10Sep2025 01:39:11.984] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127)
+[10Sep2025 01:39:11.984] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:697)
+[10Sep2025 01:39:11.984] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:646)
+[10Sep2025 01:39:11.984] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232)
+[10Sep2025 01:39:11.984] [Server thread/INFO] [STDERR/]: [immersive_paintings.resources.Cache:set:56]: 	at java.base/java.lang.Thread.run(Thread.java:829)
+[10Sep2025 01:39:12.950] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Smile_and_Eye> y eso?
+[10Sep2025 01:39:15.189] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Set own game mode to Spectator Mode]
+[10Sep2025 01:39:19.412] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Set own game mode to Survival Mode]
+[10Sep2025 01:39:22.254] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Set own game mode to Creative Mode]
+[10Sep2025 01:39:22.271] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <RompOrTos> donde se va a construir la maqueta
+[10Sep2025 01:39:34.962] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Smile_and_Eye> XDDDD TODO PARA ESO
+[10Sep2025 01:39:41.980] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Smile_and_Eye> mira
+[10Sep2025 01:39:48.035] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <RompOrTos> y grabar de paso
+[10Sep2025 01:39:51.158] [Server thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Server
+java.lang.RuntimeException: java.io.FileNotFoundException: immersive_paintings/immersive_paintings_romportos/gasmostazero.png (No such file or directory)
+	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:96) ~[immersive_paintings:?]
+	at immersive_paintings.resources.ServerPaintingManager.getImage(ServerPaintingManager.java:70) ~[immersive_paintings:?]
+	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:106) ~[immersive_paintings:?]
+	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:39) ~[immersive_paintings:?]
+	at immersive_paintings.forge.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:35) ~[immersive_paintings:?]
+	at net.minecraftforge.fml.network.NetworkEvent$Context.enqueueWork(NetworkEvent.java:201) ~[forge:?]
+	at immersive_paintings.forge.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$2(NetworkHandlerImpl.java:33) ~[immersive_paintings:?]
+	at net.minecraftforge.fml.network.simple.IndexedMessageCodec.lambda$tryDecode$3(IndexedMessageCodec.java:114) ~[forge:?]
+	at java.util.Optional.ifPresent(Optional.java:183) ~[?:?]
+	at net.minecraftforge.fml.network.simple.IndexedMessageCodec.tryDecode(IndexedMessageCodec.java:114) ~[forge:?]
+	at net.minecraftforge.fml.network.simple.IndexedMessageCodec.consume(IndexedMessageCodec.java:148) ~[forge:?]
+	at net.minecraftforge.fml.network.simple.SimpleChannel.networkEventListener(SimpleChannel.java:66) ~[forge:?]
+	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.fml.network.NetworkInstance.dispatch(NetworkInstance.java:72) ~[forge:?]
+	at net.minecraftforge.fml.network.NetworkHooks.lambda$onCustomPayload$1(NetworkHooks.java:77) ~[forge:?]
+	at java.util.Optional.map(Optional.java:265) ~[?:?]
+	at net.minecraftforge.fml.network.NetworkHooks.onCustomPayload(NetworkHooks.java:77) ~[forge:?]
+	at net.minecraft.network.play.ServerPlayNetHandler.func_147349_a(ServerPlayNetHandler.java:1413) ~[?:?]
+	at net.minecraft.network.play.client.CCustomPayloadPacket.func_148833_a(CCustomPayloadPacket.java:42) ~[?:?]
+	at net.minecraft.network.play.client.CCustomPayloadPacket.func_148833_a(CCustomPayloadPacket.java:12) ~[?:?]
+	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18) ~[?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144) ~[?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:734) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:159) ~[?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:717) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:711) ~[?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:697) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:646) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232) ~[?:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+Caused by: java.io.FileNotFoundException: immersive_paintings/immersive_paintings_romportos/gasmostazero.png (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:219) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:157) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:112) ~[?:?]
+	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:91) ~[immersive_paintings:?]
+	... 36 more
+[10Sep2025 01:39:58.651] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <RompOrTos> como se decia terracota en ingles
+[10Sep2025 01:40:02.252] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Smile_and_Eye> clay?
+[10Sep2025 01:40:05.531] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Smile_and_Eye> terracotta
+[10Sep2025 01:40:49.266] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <RompOrTos> pero negra p
+[10Sep2025 01:40:57.151] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Smile_and_Eye> black_terracotta
+[10Sep2025 01:41:12.520] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Gamerule doWeatherCycle is now set to: false]
+[10Sep2025 01:41:17.310] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Set the weather to clear]
+[10Sep2025 01:41:33.074] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Smile_and_Eye has made the advancement [Spooky Scary Skeleton]
+[10Sep2025 01:41:50.662] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <RompOrTos> era black teracota
+[10Sep2025 01:42:02.081] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: RompOrTos has made the advancement [Withering Heights]
+[10Sep2025 01:42:02.081] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Smile_and_Eye has made the advancement [Withering Heights]
+[10Sep2025 01:42:08.313] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Cleric'/34, l='ServerLevel[PO]', x=151.21, y=70.19, z=189.72] died, message: 'Cleric fell out of the world'
+[10Sep2025 01:42:08.313] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Cartographer'/35, l='ServerLevel[PO]', x=158.50, y=70.00, z=183.75] died, message: 'Cartographer fell out of the world'
+[10Sep2025 01:42:08.314] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Leatherworker'/36, l='ServerLevel[PO]', x=168.84, y=72.00, z=187.09] died, message: 'Leatherworker fell out of the world'
+[10Sep2025 01:42:08.314] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Toolsmith'/37, l='ServerLevel[PO]', x=151.70, y=70.19, z=190.31] died, message: 'Toolsmith fell out of the world'
+[10Sep2025 01:42:08.314] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Armorer'/40, l='ServerLevel[PO]', x=184.25, y=71.00, z=185.54] died, message: 'Armorer fell out of the world'
+[10Sep2025 01:42:08.315] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Armorer'/41, l='ServerLevel[PO]', x=186.60, y=71.92, z=185.49] died, message: 'Armorer fell out of the world'
+[10Sep2025 01:42:08.315] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Butcher'/42, l='ServerLevel[PO]', x=170.71, y=70.00, z=190.05] died, message: 'Butcher fell out of the world'
+[10Sep2025 01:42:08.315] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Butcher'/43, l='ServerLevel[PO]', x=168.70, y=72.00, z=185.72] died, message: 'Butcher fell out of the world'
+[10Sep2025 01:42:08.316] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Armorer'/44, l='ServerLevel[PO]', x=190.53, y=71.00, z=187.47] died, message: 'Armorer fell out of the world'
+[10Sep2025 01:42:08.316] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Cartographer'/47, l='ServerLevel[PO]', x=161.15, y=72.00, z=186.51] died, message: 'Cartographer fell out of the world'
+[10Sep2025 01:42:08.317] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Leatherworker'/48, l='ServerLevel[PO]', x=170.01, y=71.00, z=186.59] died, message: 'Leatherworker fell out of the world'
+[10Sep2025 01:42:08.317] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Villager'/84, l='ServerLevel[PO]', x=149.30, y=70.19, z=190.72] died, message: 'Villager fell out of the world'
+[10Sep2025 01:42:08.317] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Toolsmith'/87, l='ServerLevel[PO]', x=158.94, y=71.00, z=189.44] died, message: 'Toolsmith fell out of the world'
+[10Sep2025 01:42:08.318] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Armorer'/88, l='ServerLevel[PO]', x=181.38, y=70.00, z=185.45] died, message: 'Armorer fell out of the world'
+[10Sep2025 01:42:08.320] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Villager'/601, l='ServerLevel[PO]', x=150.10, y=70.19, z=190.83] died, message: 'Villager fell out of the world'
+[10Sep2025 01:42:08.320] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Villager'/602, l='ServerLevel[PO]', x=149.30, y=70.19, z=189.93] died, message: 'Villager fell out of the world'
+[10Sep2025 01:42:08.320] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Fisherman'/603, l='ServerLevel[PO]', x=153.16, y=71.00, z=190.02] died, message: 'Fisherman fell out of the world'
+[10Sep2025 01:42:08.321] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Villager'/604, l='ServerLevel[PO]', x=150.55, y=70.19, z=190.12] died, message: 'Villager fell out of the world'
+[10Sep2025 01:42:08.321] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Villager'/605, l='ServerLevel[PO]', x=149.74, y=70.19, z=191.61] died, message: 'Villager fell out of the world'
+[10Sep2025 01:42:08.321] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Villager'/608, l='ServerLevel[PO]', x=151.70, y=70.19, z=189.30] died, message: 'Villager fell out of the world'
+[10Sep2025 01:42:08.322] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Villager'/609, l='ServerLevel[PO]', x=150.81, y=70.19, z=189.30] died, message: 'Villager fell out of the world'
+[10Sep2025 01:42:08.322] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Fisherman'/610, l='ServerLevel[PO]', x=151.26, y=70.19, z=190.97] died, message: 'Fisherman fell out of the world'
+[10Sep2025 01:42:08.322] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Cartographer'/611, l='ServerLevel[PO]', x=157.49, y=72.00, z=189.26] died, message: 'Cartographer fell out of the world'
+[10Sep2025 01:42:08.323] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Fisherman'/612, l='ServerLevel[PO]', x=151.46, y=70.19, z=191.70] died, message: 'Fisherman fell out of the world'
+[10Sep2025 01:42:08.323] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Toolsmith'/613, l='ServerLevel[PO]', x=159.21, y=71.00, z=188.83] died, message: 'Toolsmith fell out of the world'
+[10Sep2025 01:42:08.323] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: RompOrTos fell out of the world
+[10Sep2025 01:42:08.325] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Smile_and_Eye fell out of the world
+[10Sep2025 01:42:08.332] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RompOrTos: Killed 337 entities]
+[10Sep2025 01:42:14.269] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Smile_and_Eye> OE
+[10Sep2025 01:42:18.166] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <RompOrTos> xdd
+[10Sep2025 01:42:21.261] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Smile_and_Eye> YO TENÍA EL COMANDO PARA MATARLO
+[10Sep2025 01:42:26.362] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Smile_and_Eye> Y TÚ MATASTE A TODAS LAS ENTIDADES
+[10Sep2025 01:42:27.399] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: RompOrTos has made the advancement [Spooky Scary Skeleton]
+[10Sep2025 01:42:32.798] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <RompOrTos> aia xdd
+[10Sep2025 01:42:35.983] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <RompOrTos> pense q no p
+[10Sep2025 01:42:45.124] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Smile_and_Eye> wn has borrado todos los cuadros y marcos
+[10Sep2025 01:42:50.279] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Smile_and_Eye> se han caído todas las mandarinas
+[10Sep2025 01:43:09.175] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <RompOrTos> verda
+[10Sep2025 01:43:22.563] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <RompOrTos> se han muerto xdd felizmente ta el mundo de respaldo

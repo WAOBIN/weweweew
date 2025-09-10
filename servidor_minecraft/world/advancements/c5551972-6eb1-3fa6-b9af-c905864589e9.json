@@ -86,10 +86,12 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_mountains": "2025-09-10 01:01:55 +0000",
+      "minecraft:forest": "2025-09-10 01:30:04 +0000",
       "minecraft:snowy_tundra": "2025-09-10 00:55:08 +0000",
       "minecraft:desert": "2025-09-10 01:27:45 +0000",
       "minecraft:snowy_beach": "2025-09-10 00:54:45 +0000",
       "minecraft:savanna_plateau": "2025-09-10 01:27:06 +0000",
+      "minecraft:beach": "2025-09-10 01:30:06 +0000",
       "minecraft:river": "2025-09-10 01:05:55 +0000",
       "minecraft:savanna": "2025-09-10 01:27:13 +0000"
     },
