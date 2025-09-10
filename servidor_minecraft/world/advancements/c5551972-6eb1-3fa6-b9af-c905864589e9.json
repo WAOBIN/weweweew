@@ -1,0 +1,22 @@
+{
+  "immersive_paintings:misc/glow_painting": {
+    "criteria": {
+      "has_item": "2025-09-10 00:56:06 +0000"
+    },
+    "done": true
+  },
+  "immersive_paintings:misc/painting": {
+    "criteria": {
+      "has_item": "2025-09-10 00:56:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_tundra": "2025-09-10 00:55:08 +0000",
+      "minecraft:snowy_beach": "2025-09-10 00:54:45 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 2586
+}

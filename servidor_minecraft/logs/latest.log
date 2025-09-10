@@ -1,0 +1,114 @@
+[10Sep2025 00:52:01.899] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.42, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
+[10Sep2025 00:52:01.903] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 11.0.28 by Ubuntu
+[10Sep2025 00:52:02.688] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[10Sep2025 00:52:02.815] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/workspaces/weweweew/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[10Sep2025 00:52:03.634] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[10Sep2025 00:52:03.725] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[10Sep2025 00:52:03.731] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[10Sep2025 00:52:03.737] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[10Sep2025 00:52:05.093] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[10Sep2025 00:52:11.092] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.42, for MC 1.16.5 with MCP 20210115.111550
+[10Sep2025 00:52:11.176] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.42 Initialized
+[10Sep2025 00:52:11.648] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[10Sep2025 00:52:11.646] [modloading-worker-1/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit/]: WorldEdit for Forge (version 7.2.5+57d5ac9) is loaded
+[10Sep2025 00:52:12.252] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 36.2.42 Target: null
+[10Sep2025 00:52:14.744] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10Sep2025 00:52:15.606] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[10Sep2025 00:52:15.608] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10Sep2025 00:52:15.609] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10Sep2025 00:52:15.612] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[10Sep2025 00:52:15.615] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10Sep2025 00:52:15.631] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, immersive_paintings-0.4.4+1.16.5.jar, freecam-forge-1.3.3+mc1.16.5.jar, forge-1.16.5-36.2.42-universal.jar, worldedit-mod-7.2.5-dist.jar, tl_skin_cape_forge_1.16.5-1.17.jar, cloth-config-4.17.132-forge.jar
+[10Sep2025 00:52:17.069] [Worker-Main-5/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
+[10Sep2025 00:52:17.796] [Worker-Main-5/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 929 advancements
+[10Sep2025 00:52:19.068] [main/WARN] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: This world was saved with mod forge version 36.2.34 and it is now at version 36.2.42, things may not work well
+[10Sep2025 00:52:20.301] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[10Sep2025 00:52:20.305] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[10Sep2025 00:52:20.306] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[10Sep2025 00:52:20.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[10Sep2025 00:52:20.625] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[10Sep2025 00:52:20.653] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
+[10Sep2025 00:52:20.787] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10Sep2025 00:52:20.788] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[10Sep2025 00:52:20.789] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10Sep2025 00:52:20.789] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[10Sep2025 00:52:20.883] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[10Sep2025 00:52:21.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[10Sep2025 00:52:22.699] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[10Sep2025 00:52:22.700] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[10Sep2025 00:52:22.701] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[10Sep2025 00:52:22.701] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[10Sep2025 00:52:23.250] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 51%
+[10Sep2025 00:52:26.926] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[10Sep2025 00:52:26.927] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[10Sep2025 00:52:26.927] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[10Sep2025 00:52:26.929] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[10Sep2025 00:52:26.930] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[10Sep2025 00:52:26.930] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[10Sep2025 00:52:26.931] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[10Sep2025 00:52:27.193] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[10Sep2025 00:52:27.670] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 93%
+[10Sep2025 00:52:28.177] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 93%
+[10Sep2025 00:52:28.688] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 93%
+[10Sep2025 00:52:29.176] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 95%
+[10Sep2025 00:52:29.672] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 97%
+[10Sep2025 00:52:30.157] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 8989 ms
+[10Sep2025 00:52:30.159] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.339s)! For help, type "help"
+[10Sep2025 00:52:30.161] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting GS4 status listener
+[10Sep2025 00:52:30.170] [Query Listener #1/INFO] [net.minecraft.network.rcon.QueryThread/]: Query running on 0.0.0.0:25565
+[10Sep2025 00:52:30.170] [Server thread/INFO] [net.minecraft.network.rcon.RConThread/]: Thread Query Listener started
+[10Sep2025 00:52:30.924] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@300189c5]
+[10Sep2025 00:52:32.544] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
+[10Sep2025 00:54:44.913] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@25589df6
+[10Sep2025 00:54:44.924] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: RompOrTos[/127.190.103.74:39781] logged in with entity id 237 at (134.5, 63.0, 153.5)
+[10Sep2025 00:54:44.966] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: RompOrTos joined the game
+[10Sep2025 00:55:06.872] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RompOrTos: Set the weather to clear]
+[10Sep2025 00:55:13.390] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RompOrTos: Set own game mode to Creative Mode]
+[10Sep2025 00:56:38.333] [Server thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Server
+java.lang.RuntimeException: java.io.FileNotFoundException: immersive_paintings/immersive_paintings_romportos/gasmostazero.png (No such file or directory)
+	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:96) ~[immersive_paintings:?]
+	at immersive_paintings.resources.ServerPaintingManager.getImage(ServerPaintingManager.java:70) ~[immersive_paintings:?]
+	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:106) ~[immersive_paintings:?]
+	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:39) ~[immersive_paintings:?]
+	at immersive_paintings.forge.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:35) ~[immersive_paintings:?]
+	at net.minecraftforge.fml.network.NetworkEvent$Context.enqueueWork(NetworkEvent.java:201) ~[forge:?]
+	at immersive_paintings.forge.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$2(NetworkHandlerImpl.java:33) ~[immersive_paintings:?]
+	at net.minecraftforge.fml.network.simple.IndexedMessageCodec.lambda$tryDecode$3(IndexedMessageCodec.java:114) ~[forge:?]
+	at java.util.Optional.ifPresent(Optional.java:183) ~[?:?]
+	at net.minecraftforge.fml.network.simple.IndexedMessageCodec.tryDecode(IndexedMessageCodec.java:114) ~[forge:?]
+	at net.minecraftforge.fml.network.simple.IndexedMessageCodec.consume(IndexedMessageCodec.java:148) ~[forge:?]
+	at net.minecraftforge.fml.network.simple.SimpleChannel.networkEventListener(SimpleChannel.java:66) ~[forge:?]
+	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.fml.network.NetworkInstance.dispatch(NetworkInstance.java:72) ~[forge:?]
+	at net.minecraftforge.fml.network.NetworkHooks.lambda$onCustomPayload$1(NetworkHooks.java:77) ~[forge:?]
+	at java.util.Optional.map(Optional.java:265) ~[?:?]
+	at net.minecraftforge.fml.network.NetworkHooks.onCustomPayload(NetworkHooks.java:77) ~[forge:?]
+	at net.minecraft.network.play.ServerPlayNetHandler.func_147349_a(ServerPlayNetHandler.java:1413) ~[?:?]
+	at net.minecraft.network.play.client.CCustomPayloadPacket.func_148833_a(CCustomPayloadPacket.java:42) ~[?:?]
+	at net.minecraft.network.play.client.CCustomPayloadPacket.func_148833_a(CCustomPayloadPacket.java:12) ~[?:?]
+	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18) ~[?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144) ~[?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:734) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:159) ~[?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:717) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:711) ~[?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:697) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:646) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232) ~[?:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+Caused by: java.io.FileNotFoundException: immersive_paintings/immersive_paintings_romportos/gasmostazero.png (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:219) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:157) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:112) ~[?:?]
+	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:91) ~[immersive_paintings:?]
+	... 36 more
+[10Sep2025 00:58:00.974] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RompOrTos: Set the time to 1000]
+[10Sep2025 01:00:17.285] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RompOrTos: Set the weather to clear]
