@@ -2217,3 +2217,139 @@ Caused by: java.io.FileNotFoundException: immersive_paintings/immersive_painting
 [10Sep2025 01:22:37.191] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Smile_and_Eye> eres una perra
 [10Sep2025 01:22:42.749] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <RompOrTos> xdddd
 [10Sep2025 01:23:04.304] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <RompOrTos> verdad quiero probar algo
+[10Sep2025 01:23:12.504] [Server thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Server
+java.lang.RuntimeException: java.io.FileNotFoundException: immersive_paintings/immersive_paintings_romportos/gasmostazero.png (No such file or directory)
+	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:96) ~[immersive_paintings:?]
+	at immersive_paintings.resources.ServerPaintingManager.getImage(ServerPaintingManager.java:70) ~[immersive_paintings:?]
+	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:106) ~[immersive_paintings:?]
+	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:39) ~[immersive_paintings:?]
+	at immersive_paintings.forge.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:35) ~[immersive_paintings:?]
+	at net.minecraftforge.fml.network.NetworkEvent$Context.enqueueWork(NetworkEvent.java:201) ~[forge:?]
+	at immersive_paintings.forge.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$2(NetworkHandlerImpl.java:33) ~[immersive_paintings:?]
+	at net.minecraftforge.fml.network.simple.IndexedMessageCodec.lambda$tryDecode$3(IndexedMessageCodec.java:114) ~[forge:?]
+	at java.util.Optional.ifPresent(Optional.java:183) ~[?:?]
+	at net.minecraftforge.fml.network.simple.IndexedMessageCodec.tryDecode(IndexedMessageCodec.java:114) ~[forge:?]
+	at net.minecraftforge.fml.network.simple.IndexedMessageCodec.consume(IndexedMessageCodec.java:148) ~[forge:?]
+	at net.minecraftforge.fml.network.simple.SimpleChannel.networkEventListener(SimpleChannel.java:66) ~[forge:?]
+	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.fml.network.NetworkInstance.dispatch(NetworkInstance.java:72) ~[forge:?]
+	at net.minecraftforge.fml.network.NetworkHooks.lambda$onCustomPayload$1(NetworkHooks.java:77) ~[forge:?]
+	at java.util.Optional.map(Optional.java:265) ~[?:?]
+	at net.minecraftforge.fml.network.NetworkHooks.onCustomPayload(NetworkHooks.java:77) ~[forge:?]
+	at net.minecraft.network.play.ServerPlayNetHandler.func_147349_a(ServerPlayNetHandler.java:1413) ~[?:?]
+	at net.minecraft.network.play.client.CCustomPayloadPacket.func_148833_a(CCustomPayloadPacket.java:42) ~[?:?]
+	at net.minecraft.network.play.client.CCustomPayloadPacket.func_148833_a(CCustomPayloadPacket.java:12) ~[?:?]
+	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18) ~[?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144) ~[?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:734) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:159) ~[?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:717) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:711) ~[?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:697) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:646) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232) ~[?:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+Caused by: java.io.FileNotFoundException: immersive_paintings/immersive_paintings_romportos/gasmostazero.png (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:219) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:157) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:112) ~[?:?]
+	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:91) ~[immersive_paintings:?]
+	... 36 more
+[10Sep2025 01:23:27.608] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <RompOrTos> tmr no se puede escribir en la consola
+[10Sep2025 01:24:15.325] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Teleported Smile_and_Eye to 120000.5, 100.0, 90000.5
+[10Sep2025 01:24:18.881] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <RompOrTos> xddd
+[10Sep2025 01:24:28.627] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Teleported RompOrTos to 120000.5, -53.328374982229505, 90000.5]
+[10Sep2025 01:24:33.689] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Smile_and_Eye fell out of the world
+[10Sep2025 01:24:33.690] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Killed Smile_and_Eye]
+[10Sep2025 01:24:34.003] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: RompOrTos fell out of the world
+[10Sep2025 01:24:39.548] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <RompOrTos> xd
+[10Sep2025 01:25:08.418] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Teleported RompOrTos to 120000.5, 90.0, 3200234.5
+[10Sep2025 01:26:03.819] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Smile_and_Eye> tmr
+[10Sep2025 01:26:09.710] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <RompOrTos> xdd
+[10Sep2025 01:26:12.777] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RompOrTos: Teleported RompOrTos to Smile_and_Eye]
+[10Sep2025 01:26:21.810] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RompOrTos: Set the time to 1000]
+[10Sep2025 01:26:44.809] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Teleported Smile_and_Eye to 3400000.5, 90.0, 3200000.5
+[10Sep2025 01:26:56.629] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RompOrTos: Set the weather to clear]
+[10Sep2025 01:27:03.333] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Set own game mode to Spectator Mode]
+[10Sep2025 01:27:05.053] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RompOrTos: Teleported RompOrTos to Smile_and_Eye]
+[10Sep2025 01:27:08.291] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Teleported Smile_and_Eye to RompOrTos]
+[10Sep2025 01:27:11.052] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <RompOrTos> y el borde
+[10Sep2025 01:27:13.876] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Smile_and_Eye fell out of the world
+[10Sep2025 01:27:13.877] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Killed Smile_and_Eye]
+[10Sep2025 01:27:36.637] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Teleported Smile_and_Eye to 0.5, 0.0, 3000000.5]
+[10Sep2025 01:27:36.914] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: RompOrTos moved too quickly! 5.640042585786432,0.0,9.288151338230819
+[10Sep2025 01:28:00.226] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Teleported Smile_and_Eye to 0.5, 0.0, 9000000.5]
+[10Sep2025 01:28:01.002] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RompOrTos: Teleported RompOrTos to Smile_and_Eye]
+[10Sep2025 01:28:29.462] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Invalid position for teleport
+[10Sep2025 01:28:32.962] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Teleported Smile_and_Eye to 0.5, 0.0, 1.00000005E7]
+[10Sep2025 01:28:43.480] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Set own game mode to Creative Mode]
+[10Sep2025 01:28:44.783] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Set own game mode to Survival Mode]
+[10Sep2025 01:28:46.166] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Teleported Smile_and_Eye to 180.5, 100000.0, 180.5
+[10Sep2025 01:28:48.182] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Set own game mode to Creative Mode]
+[10Sep2025 01:28:55.172] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RompOrTos: Teleported RompOrTos to Smile_and_Eye]
+[10Sep2025 01:29:25.798] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Teleported Smile_and_Eye to 180.5, 100000.0, 180.5
+[10Sep2025 01:29:32.086] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Smile_and_Eye moved too quickly! 0.0,-21.372255825001048,0.0
+[10Sep2025 01:29:34.688] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Smile_and_Eye moved too quickly! 0.0,-13.547505941329291,0.0
+[10Sep2025 01:29:37.047] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Unknown or incomplete command, see below for error
+[10Sep2025 01:29:37.047] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Smile_and_Eye gamemode survival<--[HERE]
+[10Sep2025 01:29:43.387] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Teleported Smile_and_Eye to 0.5, 0.0, 2.99999875E7]
+[10Sep2025 01:29:43.574] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: RompOrTos moved too quickly! 0.0,-23.520022644719575,0.0
+[10Sep2025 01:29:46.806] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Set own game mode to Spectator Mode]
+[10Sep2025 01:29:51.383] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Smile_and_Eye> OE ENCONTRÉ EL BORDE XD
+[10Sep2025 01:29:57.850] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Unknown or incomplete command, see below for error
+[10Sep2025 01:29:57.850] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Smile_and_Eye survival<--[HERE]
+[10Sep2025 01:30:04.590] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RompOrTos: Teleported RompOrTos to Smile_and_Eye]
+[10Sep2025 01:30:09.402] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Set own game mode to Creative Mode]
+[10Sep2025 01:30:10.954] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <RompOrTos> verdad
+[10Sep2025 01:30:24.262] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <RompOrTos> toncs ya nos pasamos el borde porq ete numero es mas grande
+[10Sep2025 01:30:29.383] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Set own game mode to Spectator Mode]
+[10Sep2025 01:30:31.553] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Set own game mode to Creative Mode]
+[10Sep2025 01:30:36.889] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Set own game mode to Spectator Mode]
+[10Sep2025 01:30:38.278] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Set own game mode to Creative Mode]
+[10Sep2025 01:30:39.365] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Smile_and_Eye> XDD
+[10Sep2025 01:30:45.859] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Set own game mode to Spectator Mode]
+[10Sep2025 01:30:47.355] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <RompOrTos> ete p
+[10Sep2025 01:30:57.604] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Set own game mode to Survival Mode]
+[10Sep2025 01:31:03.887] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Set own game mode to Spectator Mode]
+[10Sep2025 01:31:06.319] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Set own game mode to Survival Mode]
+[10Sep2025 01:31:16.406] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Teleported Smile_and_Eye to 20.5, 78.0, 2.99999875E7
+[10Sep2025 01:31:26.131] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Applied effect Instant Health to Smile_and_Eye]
+[10Sep2025 01:31:26.731] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Applied effect Instant Health to Smile_and_Eye]
+[10Sep2025 01:31:27.084] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Applied effect Instant Health to Smile_and_Eye]
+[10Sep2025 01:31:27.367] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Applied effect Instant Health to Smile_and_Eye]
+[10Sep2025 01:31:27.938] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Applied effect Instant Health to Smile_and_Eye]
+[10Sep2025 01:31:32.024] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <RompOrTos> xdd
+[10Sep2025 01:31:35.552] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Smile_and_Eye suffocated in a wall
+[10Sep2025 01:31:35.722] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Applied effect Instant Health to Smile_and_Eye]
+[10Sep2025 01:31:39.802] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <RompOrTos> xdd
+[10Sep2025 01:31:50.276] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Summoned new Wither]
+[10Sep2025 01:31:51.327] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Killed Wither]
+[10Sep2025 01:32:00.625] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Set own game mode to Spectator Mode]
+[10Sep2025 01:32:04.274] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Set own game mode to Creative Mode]
+[10Sep2025 01:32:24.164] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Invalid position for teleport
+[10Sep2025 01:32:30.982] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Played sound minecraft:ambient.cave to 2 players]
+[10Sep2025 01:32:33.085] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Played sound minecraft:ambient.cave to 2 players]
+[10Sep2025 01:32:33.505] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Played sound minecraft:ambient.cave to 2 players]
+[10Sep2025 01:32:33.854] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Played sound minecraft:ambient.cave to 2 players]
+[10Sep2025 01:32:34.165] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Played sound minecraft:ambient.cave to 2 players]
+[10Sep2025 01:32:34.469] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Played sound minecraft:ambient.cave to 2 players]
+[10Sep2025 01:32:34.791] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Played sound minecraft:ambient.cave to 2 players]
+[10Sep2025 01:32:35.156] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Played sound minecraft:ambient.cave to 2 players]
+[10Sep2025 01:32:35.519] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Played sound minecraft:ambient.cave to 2 players]
+[10Sep2025 01:32:35.857] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Played sound minecraft:ambient.cave to 2 players]
+[10Sep2025 01:32:36.180] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Played sound minecraft:ambient.cave to 2 players]
+[10Sep2025 01:32:36.481] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Played sound minecraft:ambient.cave to 2 players]
+[10Sep2025 01:32:36.787] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Played sound minecraft:ambient.cave to 2 players]
+[10Sep2025 01:32:37.131] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Played sound minecraft:ambient.cave to 2 players]
+[10Sep2025 01:32:37.508] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Played sound minecraft:ambient.cave to 2 players]
+[10Sep2025 01:32:52.409] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Teleported Smile_and_Eye to 90.5, 20000.0, 90.5
+[10Sep2025 01:33:01.805] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RompOrTos: Teleported RompOrTos to Smile_and_Eye]
+[10Sep2025 01:33:04.072] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Smile_and_Eye: Played sound minecraft:music.creative to 2 players]
